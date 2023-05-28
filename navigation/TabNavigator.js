@@ -2,6 +2,7 @@ import React from 'react'
 import { createBottomNavigator } from '@react-navigation/bottom-tabs'
 import Feeds from '../screens/Feeds'
 import CreatePost from '../screens/CreatePost'
+import Ionicons from 'react-native-vector-icons/Ionicons'
 
 const Tab = createBottomNavigator
 

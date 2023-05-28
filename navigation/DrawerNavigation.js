@@ -7,7 +7,7 @@ const Drawer = creaetDrawerNavigator();
 
 const DrawerNavigator =()=>{
     return(
-        <Drawer.Navigator>
+        <Drawer.Navigator useLegacyImplementation>
             <Drawer.Screen name="Home" component={TabNavigator} />
             <Drawer.Screen name="Profile" component={Profile} />
         </Drawer.Navigator>
